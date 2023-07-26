@@ -76,4 +76,4 @@ It can be summarize from the dashboard above that:
 - Store with highest `Total Amount` sales is **Lingga Store** with significant difference with other store and the least is **Buana Indah Store**.
 - Product with highest `Quantity` sales is **Thai Tea** and conversely the least is **Cashew**.
 
-3. Regression Time Series Analysis with ARIMA Model
+## 3. Regression Time Series Analysis with ARIMA Model
