@@ -64,7 +64,8 @@ Fig 5. Highest Total Amount Product
 Figure above shows the best selling product (product with highest `TotalAmount`). Cheese Stick total amount is Rp.27.615.000 in 2022.
 
 
-## 2. Data Visualization and Dashboard Creation with Tableau [Open in Tableau](https://public.tableau.com/views/VIX_Kalbe/Dashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+## 2. Data Visualization and Dashboard Creation with Tableau 
+[Open in Tableau](https://public.tableau.com/views/VIX_Kalbe/Dashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 <p align="center">
   <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/Dashboard.png"> <br>
 Fig 6. Kalbe Nutritionals Sales Data Dashboard in 2022
