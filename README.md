@@ -1,4 +1,4 @@
-# Data Science Virtual Internship Experience in Kalbe Nutritionals (Machine Learning Project)
+<img width="464" alt="image" src="https://github.com/jedijm/VIX-Kalbe-Nutritionals/assets/72601186/7175bb33-194d-40b1-b3a9-e1f32169a4ba"># Data Science Virtual Internship Experience in Kalbe Nutritionals (Machine Learning Project)
 ## Project Background
 Virtual Intern Experience (VIX) is an internship program from Rakamin Academy in collaboration with companies. As a Data Scientist in Kalbe Nutritionals, there is a new project from inventory and marketing division.
 - Inventory Department requests a `Qty` (quantity) forecast from total all products in Kalbe.
@@ -172,3 +172,72 @@ Manage the stocks and inventory space to be adjusted to the forecast.
 Build a strategy to get higher sales from the forecast.
 
 ## 4. Clustering Analysis with K-Means
+
+**1. Subset Data for Clustering Analysis**
+
+<p align="center">
+  <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/data_cluster.png"> <br>
+Fig 13. Subset Data for Clustering Analysis
+</p>
+
+In this analysis, the data is selected into these 4 features: `CustomerID`, `TransactionID`, `Quantity`, `TotalAmount`. Because the data cleansing is already done before, we can focus on the clustering analysis directly.
+
+**2. Determine the K for the K-Means Model**
+
+<p align="center">
+  <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/yellowbrick_elbow.png"> <br>
+Fig 14. Elbow Method to determine K
+</p>
+
+**3. Silhouette Score**
+
+<p align="center">
+  <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/silhouette_score.png"> <br>
+Fig 15. Silhouette Score Analysis
+</p>
+
+From Fig 14. and Fig 15. it can be seen that the best K for K-Means model in this project is 4 (**K = 4**), which means the customers will be divided into 4 clusters.
+
+**4. Distribution Visualization from Each Clusters**
+
+<p align="center">
+  <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/pairplot_cluster.png"> <br>
+Fig 16. Pairplot of the Clusters
+</p>
+
+Figure above shows the distribution of clusters from each features. The cluster 3 (purple) dominates in every features while the least is cluster 0 (red).
+
+**5. Characteristics of Each Clusters**
+
+<p align="center">
+  <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/data_cluster.png"> <br>
+Fig 17. Average of each metrics in every clusters
+</p>
+
+### Summary
+* **Cluster 3** <br>
+  - Cluster with the highest number of customers.
+  - Customer characteristics rank third in each metric (transaction, quantity, total amount).
+<br> Recommendations:
+    - Build good relationships with customers.
+    - Conduct surveys to develop the interests of the most numerous customers.
+* **Cluster 2** <br>
+  - Customer characteristics rank second highest in each metric.
+<br> Recommendations:
+    - Provide regular promotions to increase transactions.
+    - Perform upselling of high-priced products.
+* **Cluster 1** <br>
+  - Customer characteristics with the lowest values in each metric.
+<br> Recommendations:
+    - Provide significant discounts to increase customer transactions.
+    - Offer promotions on transactions with higher quantities.
+    - Conduct surveys to identify product development potential.
+* **Cluster 0** <br>
+  - Cluster with the fewest number of customers.
+  - Customer characteristics with the highest values in each metric.
+<br> Recommendations:
+    - Offer loyalty promotions to retain transactions.
+    - Conduct customer satisfaction surveys.
+    - Perform upselling of higher-priced products.
+
+
