@@ -39,6 +39,7 @@ Fig 2. Average of Age Based on the Marital Status
 </p> <br>
 Fig 2. shows that the married customer age average is higher than the single customer. It also shows that there is a segment of customer that did not fill the marital status.
 
+
 - **Average of Age Based on the Gender**
 <p align="center">
   <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/age_avg.png"> <br>
