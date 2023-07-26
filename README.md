@@ -32,7 +32,7 @@ Fig 1. shows the tables that are ingested into DBeaver and will be used in this 
 
 ### 2. Exploratory Data Analysis
 
-- [Average of Age Based on Marital Status](https://github.com/jedijm/VIX-Kalbe-Nutritionals/tree/main)
+- **Average of Age Based on Marital Status**
 <p align="center">
   <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/marital_status.png"> <br>
 Fig 2. Average of Age Based on the Marital Status
