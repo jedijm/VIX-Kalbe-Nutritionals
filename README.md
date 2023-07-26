@@ -205,7 +205,7 @@ From Fig 14. and Fig 15. it can be seen that the best K for K-Means model in thi
 Fig 16. Pairplot of the Clusters
 </p>
 
-Figure above shows the distribution of clusters from each features. The cluster 3 (purple) dominates in every features while the least is cluster 0 (red).
+Figure above shows the distribution of clusters from each features. Cluster 3 (purple) dominates in every features while the least is cluster 0 (red).
 
 **5. Characteristics of Each Clusters**
 
