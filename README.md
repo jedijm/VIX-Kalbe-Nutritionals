@@ -1,4 +1,4 @@
-<img width="464" alt="image" src="https://github.com/jedijm/VIX-Kalbe-Nutritionals/assets/72601186/7175bb33-194d-40b1-b3a9-e1f32169a4ba"># Data Science Virtual Internship Experience in Kalbe Nutritionals (Machine Learning Project)
+# Data Science Virtual Internship Experience in Kalbe Nutritionals (Machine Learning Project)
 ## Project Background
 Virtual Intern Experience (VIX) is an internship program from Rakamin Academy in collaboration with companies. As a Data Scientist in Kalbe Nutritionals, there is a new project from inventory and marketing division.
 - Inventory Department requests a `Qty` (quantity) forecast from total all products in Kalbe.
