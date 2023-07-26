@@ -27,7 +27,8 @@ The project is divided into 4 subtopics:
   <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/tables.png"> <br>
 Fig 1. Tables of Dataset
 </p> <br>
-Fig 1. shows the tables that is ingested into DBeaver and will be used in this project. <br> <br>
+Fig 1. shows the tables that is ingested into DBeaver and will be used in this project. <br>
+
 ### 2. Exploratory Data Analysis
 - Average of Age Based on Marital Status
 <p align="center">
