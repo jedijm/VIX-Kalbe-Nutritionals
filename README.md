@@ -123,6 +123,7 @@ P-Value < 0.05 shows that the data is stationary and valid to continue the analy
   <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/acf_pcf.png"> <br>
 Fig 9. Autocorrelation and Partial Autocorrelation
 </p>
+
 The Autocorrelation graph (ACF) shows that the p order is 2 because the first and second lag is significantly out of the significant limit,
 meanwhile the Partial Autocorrelation graph (PCF) shows that the q order is 3 due to the significant correlation of the first until third lag.
 
