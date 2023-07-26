@@ -41,5 +41,11 @@ Fig 2. shows that the married customer age average is higher than the single cus
   <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/age_avg.png"> <br>
 Fig 3. Average of Age Based on the Gender
 </p> <br>
-Gender 0 is Female and 1 is Male. Fig 3. shows that the female customer average age is 40 and the male customer is 39.
+**Gender 0 is Female and 1 is Male.** Fig 3. shows that the female customer average age is 40 and the male customer is 39. <br>
+- Store with the Highest Total Quantity Sales
+<p align="center">
+  <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/highest_store.png"> <br>
+Fig 3. Highest Quantity Sales Store Name
+</p> <br>
+Fig 3
 
