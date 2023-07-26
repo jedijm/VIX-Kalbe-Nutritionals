@@ -214,28 +214,28 @@ Figure above shows the distribution of clusters from each features. Cluster 3 (p
 Fig 17. Average of each metrics in every clusters
 </p>
 
-### Summary
+### Summary & Recommendations
 * **Cluster 3** <br>
   - Cluster with the highest number of customers.
   - Customer characteristics rank third in each metric (transaction, quantity, total amount).
-<br> Recommendations:
+<br> **Recommendations**:
     - Build good relationships with customers.
     - Conduct surveys to develop the interests of the most numerous customers.
 * **Cluster 2** <br>
   - Customer characteristics rank second highest in each metric.
-<br> Recommendations:
+<br> **Recommendations**:
     - Provide regular promotions to increase transactions.
     - Perform upselling of high-priced products.
 * **Cluster 1** <br>
   - Customer characteristics with the lowest values in each metric.
-<br> Recommendations:
+<br> **Recommendations**:
     - Provide significant discounts to increase customer transactions.
     - Offer promotions on transactions with higher quantities.
     - Conduct surveys to identify product development potential.
 * **Cluster 0** <br>
   - Cluster with the fewest number of customers.
   - Customer characteristics with the highest values in each metric.
-<br> Recommendations:
+<br> **Recommendations**:
     - Offer loyalty promotions to retain transactions.
     - Conduct customer satisfaction surveys.
     - Perform upselling of higher-priced products.
