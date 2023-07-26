@@ -65,5 +65,15 @@ Figure above shows the best selling product (product with highest `TotalAmount`)
 
 
 ## 2. Data Visualization and Dashboard Creation with Tableau
+<p align="center">
+  <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/Dashboard.png"> <br>
+Fig 6. Kalbe Nutritionals Sales Data Dashboard in 2022
+</p>
 
+It can be summarize from the dashboard above that:
+- The monthly `Quantity` sales tends to be higher in the first half of the year, except in February.
+- The daily `Total Amount` sales vary through the month with its peak at the first day of the month.
+- Store with highest `Total Amount` sales is **Lingga Store** with significant difference with other store and the least is **Buana Indah Store**.
+- Product with highest `Quantity` sales is **Thai Tea** and conversely the least is **Cashew**.
 
+3. Regression Time Series Analysis with ARIMA Model
