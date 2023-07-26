@@ -210,7 +210,7 @@ Figure above shows the distribution of clusters from each features. The cluster 
 **5. Characteristics of Each Clusters**
 
 <p align="center">
-  <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/data_cluster.png"> <br>
+  <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/cluster_table.png"> <br>
 Fig 17. Average of each metrics in every clusters
 </p>
 
