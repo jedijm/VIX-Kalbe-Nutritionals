@@ -19,7 +19,7 @@ The project is divided into 4 subtopics:
 1. Data ingestion and Exploratory Data Analysis (EDA) with DBeaver
 2. Data Visualization and Dashboard Creation with Tableau
 3. Regression Time Series Analysis with ARIMA Model
-4. Clustering Analysis
+4. Clustering Analysis with K-Means
    
 
 ## 1. Data Ingestion and EDA with DBeaver (SQL)
@@ -114,7 +114,7 @@ P-Value < 0.05 shows that the data is stationary and valid to continue the analy
 4. Autocorrelation and Partial Autocorrelation
 <p align="center">
   <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/acf_pcf.png"> <br>
-Fig 8. Autocorrelation and Partial Autocorrelation
+Fig 9. Autocorrelation and Partial Autocorrelation
 </p>
 The Autocorrelation graph (ACF) shows that the p order is 2 because the first and second lag is significantly out of the significant limit,
 meanwhile the Partial Autocorrelation graph (PCF) shows that the q order is 3 due to the significant correlation of the first until third lag.
@@ -134,3 +134,35 @@ Auto-fit ARIMA | (1,0,1) | (12.9513, 0.3433, 16.0013) |
 Iterative Hyperparameter Tuning | (0, 1, 1) | (12.9755, 0.3443, 16.0214) |
 Manual Hyperparameter Tuning | (40, 2, 2) | (11.7652, 0.293, 15.4831) |
 
+<p align="center">
+  <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/forecast_predict.png"> <br>
+Fig 10. Predict data test and validate with real data
+</p>
+
+From the table and figure above, it can be concluded that the best model performance is shown by Manual Hyperparameter Tuning. The Evaluation Metrics in Table 2. shows a significant difference with other methods and the line graph shows a more similar pattern of the prediction.
+
+Thus, the ARIMA model with order (40,2,2) is used to forecast data for a month ahead of the data test which is January 1st-31st 2023.
+
+
+<p align="center">
+  <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/forecast_sales.png"> <br>
+Fig 11. Quantity Sales Forecast in January 2023
+</p>
+
+To be more exact, we can see the statistical description of the forecast data:
+
+<p align="center">
+  <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/describe_forecast.png"> <br>
+Fig 12. Forecast data statistical description
+</p>
+
+The average of quantity sales forecast in January 2023 is rounded to approximately 44 pcs/day. 
+
+## Recommendation
+
+- Inventory Division
+Manage the stocks and inventory space to be adjusted to the forecast.
+- Marketing Division
+Build a strategy to get higher sales from the forecast.
+
+## 4. Clustering Analysis with K-Means
