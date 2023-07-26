@@ -1,10 +1,11 @@
 # Data Science Virtual Internship Experience in Kalbe Nutritionals (Machine Learning Project)
 ## Project Background
-Virtual Intern Experience (VIX) is an internship program from Rakamin Academy in collaboration with companies. As a Data Scientist in Kalbe Nutritionals, there is a new project from inventory and marketing division.
+<div align="justify"> Virtual Intern Experience (VIX) is an internship program from Rakamin Academy in collaboration with companies. As a Data Scientist in Kalbe Nutritionals, there is a new project from inventory and marketing division.
 - Inventory Department requests a `Qty` (quantity) forecast from total all products in Kalbe.
   - Goals: To identify estimation of quantity product sales to help inventory team to prepare optimum daily stock of products.
 - Marketing Department requests a customer segmentation (cluster) based on each common criterias.
   - Goals:  To categorize customers into a few clusters. The clusters will be used for a personalized promotion and sales treatment.
+</div>
 
 Dataset: Sales Data in 2022 Provided by Kalbe Nutritionals <br>
 Tools:
@@ -45,7 +46,14 @@ Fig 3. Average of Age Based on the Gender
 - Store with the Highest Total Quantity Sales
 <p align="center">
   <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/highest_store.png"> <br>
-Fig 3. Highest Quantity Sales Store Name
+Fig 4. Highest Quantity Sales Store Name
 </p> <br>
-Fig 3
+Fig 4. shows the store with highest quantity sales amongst all stores. Lingga Store has 2777 total quantity sales in 2022. <br>
+- Product with the Highest Total Amount Sales
+<p align="center">
+  <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/highest_product.png"> <br>
+Fig 5. Highest Total Amount Product
+</p> <br>
+Figure above shows the best selling product (product with highest `TotalAmount`). Cheese Stick total amount is Rp.27.615.000 in 2022. <br>
+
 
