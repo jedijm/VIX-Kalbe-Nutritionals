@@ -31,14 +31,15 @@ Fig 1. Tables of Dataset
 Fig 1. shows the tables that are ingested into DBeaver and will be used in this project. <br>
 
 ### 2. Exploratory Data Analysis
-- Average of Age Based on Marital Status
+
+- [Average of Age Based on Marital Status](https://github.com/jedijm/VIX-Kalbe-Nutritionals/tree/main)
 <p align="center">
   <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/marital_status.png"> <br>
 Fig 2. Average of Age Based on the Marital Status
 </p> <br>
 Fig 2. shows that the married customer age average is higher than the single customer. It also shows that there is a segment of customer that did not fill the marital status.
 
-- Average of Age Based on the Gender
+- **Average of Age Based on the Gender**
 <p align="center">
   <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/age_avg.png"> <br>
 Fig 3. Average of Age Based on the Gender
@@ -47,7 +48,7 @@ Fig 3. Average of Age Based on the Gender
 **Gender 0 is Female and 1 is Male.** Fig 3. shows that the female customer average age is 40 and the male customer is 39.
 
 
-- Store with the Highest Total Quantity Sales
+- **Store with the Highest Total Quantity Sales**
 <p align="center">
   <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/highest_store.png"> <br>
 Fig 4. Highest Quantity Sales Store Name
@@ -55,7 +56,7 @@ Fig 4. Highest Quantity Sales Store Name
 Fig 4. shows the store with highest quantity sales amongst all stores. Lingga Store has 2777 total quantity sales in 2022. 
 
 
-- Product with the Highest Total Amount Sales
+- **Product with the Highest Total Amount Sales**
 <p align="center">
   <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/highest_product.png"> <br>
 Fig 5. Highest Total Amount Product
@@ -90,13 +91,14 @@ Table 1. Data Pre-Processing Treatment <br>
 
 
 ## 3. Regression Time Series Analysis with ARIMA Model
-1. **Subset the data grouped by `Date` with sum of `Qty`**
+
+**1. Subset the data grouped by `Date` with sum of `Qty`**
 <p align="center">
   <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/groupby_date.png"> <br>
 Fig 6. Regression Data Subset
 </p>
 
-2. **Split Data Train and Data Test**
+**2. Split Data Train and Data Test**
 <p align="center">
   <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/split_data.png"> <br>
 Fig 7. Split Data Train and Data Test
@@ -104,7 +106,7 @@ Fig 7. Split Data Train and Data Test
 I used 85:15 ratio of data train and data test to get the best model performance.
 
 
-3. **Stationary Check**
+**3. Stationary Check**
 
 The data has to be stationary to use ARIMA model.
 <p align="center">
@@ -114,7 +116,7 @@ Fig 8. Stationary Check
 P-Value < 0.05 shows that the data is stationary and valid to continue the analysis.
 
 
-4. **Autocorrelation and Partial Autocorrelation**
+**4. Autocorrelation and Partial Autocorrelation**
 <p align="center">
   <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/acf_pcf.png"> <br>
 Fig 9. Autocorrelation and Partial Autocorrelation
@@ -122,14 +124,14 @@ Fig 9. Autocorrelation and Partial Autocorrelation
 The Autocorrelation graph (ACF) shows that the p order is 2 because the first and second lag is significantly out of the significant limit,
 meanwhile the Partial Autocorrelation graph (PCF) shows that the q order is 3 due to the significant correlation of the first until third lag.
 
-5. **Modelling**
+**5. Modelling**
 
 In this section, I use 3 method to build the best ARIMA model specifically to identify the best order (p,d,q):
 - Auto-fit ARIMA
 - Hyperparameter Tuning (with iteration)
 - Manual Hyperparameter Tuning
 
-Table 2. Hypeparameter Tuning ARIMA Models
+**Table 2. Hypeparameter Tuning ARIMA Models**
 
 **Methods** | **Order (p,d,q)** | **Evaluation Metrics (MAE, MAPE, RMSE)** |
 :-----:     | ----------------  |    --------------------------- |
