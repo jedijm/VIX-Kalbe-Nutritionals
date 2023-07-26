@@ -65,7 +65,7 @@ Figure above shows the best selling product (product with highest `TotalAmount`)
 
 
 ## 2. Data Visualization and Dashboard Creation with Tableau 
-[Open in Tableau](https://public.tableau.com/views/VIX_Kalbe/Dashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
+[Open in Tableau Public](https://public.tableau.com/views/VIX_Kalbe/Dashboard?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link)
 <p align="center">
   <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/Dashboard.png"> <br>
 Fig 6. Kalbe Nutritionals Sales Data Dashboard in 2022
@@ -90,5 +90,45 @@ Table 1. Data Pre-Processing Treatment <br>
 
 
 ## 3. Regression Time Series Analysis with ARIMA Model
+1. Subset the data grouped by `Date` with sum of `Qty`
+<p align="center">
+  <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/groupby_date.png"> <br>
+Fig 6. Regression Data Subset
+</p>
 
+2. Split Data Train and Data Test
+<p align="center">
+  <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/split_data.png"> <br>
+Fig 7. Split Data Train and Data Test
+</p>
+I used 85:15 ratio of data train and data test to get the best model performance.
+
+3. Stationary Check
+The data has to be stationary to use ARIMA model.
+<p align="center">
+  <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/stationary_check.png"> <br>
+Fig 8. Stationary Check
+</p>
+P-Value < 0.05 shows that the data is stationary and valid to continue the analysis.
+
+4. Autocorrelation and Partial Autocorrelation
+<p align="center">
+  <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/acf_pcf.png"> <br>
+Fig 8. Autocorrelation and Partial Autocorrelation
+</p>
+The Autocorrelation graph (ACF) shows that the p order is 2 because the first and second lag is significantly out of the significant limit,
+meanwhile the Partial Autocorrelation graph (PCF) shows that the q order is 3 due to the significant correlation of the first until third lag.
+
+5. Modelling
+
+In this section, I use 3 method to build the best ARIMA model specifically to identify the best order (p,d,q):
+- Auto-fit ARIMA
+- Hyperparameter Tuning (with iteration)
+- Manual Hyperparameter Tuning
+
+Methods | Order (p,d,q) | Evaluation Metrics (MAE, MAPE, RMSE) |
+:-----: |    ----------------    |    ------------     |--------------------|
+Auto-fit ARIMA | (1,0,1) | (12.9513, 0.3433, 16.0013) |
+Iterative Hyperparameter Tuning | (0, 1, 1) | (12.9755, 0.3443, 16.0214) |
+Manual Hyperparameter Tuning | (40, 2, 2) | (11.7652, 0.293, 15.4831) |
 
