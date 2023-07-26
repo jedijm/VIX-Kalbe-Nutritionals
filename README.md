@@ -126,7 +126,8 @@ In this section, I use 3 method to build the best ARIMA model specifically to id
 - Hyperparameter Tuning (with iteration)
 - Manual Hyperparameter Tuning
 
-Methods | Order (p,d,q) | Evaluation Metrics (MAE, MAPE, RMSE) |
+Table 2. Hypeparameter Tuning ARIMA Models
+**Methods** | **Order (p,d,q)** | **Evaluation Metrics (MAE, MAPE, RMSE)** |
 :-----: |    ----------------    |    ------------     |--------------------|
 Auto-fit ARIMA | (1,0,1) | (12.9513, 0.3433, 16.0013) |
 Iterative Hyperparameter Tuning | (0, 1, 1) | (12.9755, 0.3443, 16.0214) |
