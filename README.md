@@ -82,7 +82,7 @@ It can be summarize from the dashboard above that:
 ## Data Pre-Processing for Machine Learning
 Read and merge all the data into one dataset, treat the data:
 
-Table 1. Data Pre-Processing Treatment <br>
+**Table 1. Data Pre-Processing Treatment** <br>
 **No**  |     **Treatment**      |    **Findings**     |    **Actions**     |
 :-----: |    ----------------    |    ------------     |--------------------|
 1 | Handling Missing Values | 44 missing values in `Marital Status` | Drop the rows due to the insignificant size |
