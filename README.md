@@ -105,6 +105,7 @@ I used 85:15 ratio of data train and data test to get the best model performance
 
 
 3. **Stationary Check**
+
 The data has to be stationary to use ARIMA model.
 <p align="center">
   <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/stationary_check.png"> <br>
