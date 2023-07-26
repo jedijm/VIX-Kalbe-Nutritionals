@@ -17,7 +17,7 @@ Virtual Intern Experience (VIX) is an internship program from Rakamin Academy in
 
 The project is divided into 4 subtopics:
 1. Data ingestion and Exploratory Data Analysis (EDA) with DBeaver
-2. Data Visualization and Creating Dashboard with Tableau
+2. Data Visualization and Dashboard Creation with Tableau
 3. Regression Time Series Analysis with ARIMA Model
 4. Clustering Analysis
    
@@ -59,7 +59,11 @@ Fig 4. shows the store with highest quantity sales amongst all stores. Lingga St
 <p align="center">
   <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/highest_product.png"> <br>
 Fig 5. Highest Total Amount Product
-</p> <br>
-Figure above shows the best selling product (product with highest `TotalAmount`). Cheese Stick total amount is Rp.27.615.000 in 2022. <br>
+</p>
+
+Figure above shows the best selling product (product with highest `TotalAmount`). Cheese Stick total amount is Rp.27.615.000 in 2022.
+
+
+## 2. Data Visualization and Dashboard Creation with Tableau
 
 
