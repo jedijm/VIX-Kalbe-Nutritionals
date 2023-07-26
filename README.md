@@ -76,4 +76,18 @@ It can be summarize from the dashboard above that:
 - Store with highest `Total Amount` sales is **Lingga Store** with significant difference with other store and the least is **Buana Indah Store**.
 - Product with highest `Quantity` sales is **Thai Tea** and conversely the least is **Cashew**.
 
+## Data Pre-Processing for Machine Learning
+Read and merge all the data into one dataset, treat the data:
+
+Table 1. Data Pre-Processing Treatment <br>
+**No**  |     **Treatment**      |    **Findings**     |    **Actions**     |
+:-----: |    ----------------    |    ------------     |--------------------|
+1 | Handling Missing Values | 44 missing values in `Marital Status` | Drop the rows due to the insignificant size |
+2 | Convert Irrelevant Data Type | 1. `Latitude` & `Longitude` datatype is object <br> 2. Date datatype is object | 1. `Latitude` & `Longitude` is converted to float <br> 2. `Date` is converted to datatime |
+3 | Drop Irrelevant Values | `Price_y` and `Price_x` consisted of same values | Drop one column (`Price_y`) |
+4 | Duplicated Values | - | - |
+
+
 ## 3. Regression Time Series Analysis with ARIMA Model
+
+
