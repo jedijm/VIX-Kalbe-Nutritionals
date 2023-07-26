@@ -104,8 +104,7 @@ Fig 6. Regression Data Subset
   <img src= "https://github.com/jedijm/VIX-Kalbe-Nutritionals/blob/main/asset/split_data.png"> <br>
 Fig 7. Split Data Train and Data Test
 </p>
-I used 85:15 ratio of data train and data test to get the best model performance.
-
+I used 85:15 ratio of data train and data test to get the best model performance. <br>
 
 **3. Stationary Check**
 
